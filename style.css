@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:ital,wght@0,700;1,400;1,800&family=Roboto:ital,wght@0,400;1,700&family=Rubik:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(210, 60%, 98%);
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    height: 100%;
+}
+.page{
+    width: 40%;
+    margin: 50px auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+}
+header h3{
+    color: hsl(224, 21%, 14%);
+}
+.number{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(219, 85%, 26%);
+    font-size: 12px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: 3px;
+}
+.mark-all{
+    color: hsl(219, 12%, 42%);
+    background: none;
+    border: 0;
+    outline: none;
+}
+.mark-all:hover{
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.name{
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+}
+.reaction{
+    color:  hsl(219, 12%, 42%);
+    font-weight: 500;
+}
+.time{
+    color: hsl(205, 33%, 90%);
+    font-size: 12px;
+}
+.rizky .time{
+    margin-bottom: 10px;
+}
+.werber .post, .nathan .post{
+    color:hsl(219, 12%, 42%);
+    font-weight: 800;
+}
+.werber .post:hover, .angela .name:hover{
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+.chat{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.chat img{
+    width: 100%;
+}
+.img{
+    width: 10%;
+}
+.message{
+    font-size: 12px;
+}
+.flex-time{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.kimberly .post img{
+    width: 40%;
+}
+.kimberly{
+    display: flex;
+    justify-content: space-between;
+}
+.werber, .angela, .jacob, .rizky, .kimberly, .nathan, .ana{
+    padding: 7px;
+    margin-bottom: 10px;
+}
+.border{
+    font-size: 12px;
+    color: hsl(219, 14%, 63%);
+    border: 1px solid hsl(211, 68%, 94%);
+    padding: 5px;
+    border-radius: 5px;
+}
+.jacob .post, .ana .post{
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+.jacob .post:hover, .kimberly .post:hover{
+    cursor: pointer;
+}
+.border:hover{
+    cursor: pointer;
+    background-color: hsl(205, 33%, 90%);
+}
+.unread{
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 5px;
+}
+.red-dot.unread{
+    background-color: hsl(1, 90%, 64%);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+/* For mobile */
+@media screen and (max-width: 375px) {
+    .page{
+        width: 100%;
+        margin: 0;
+    }
+}
